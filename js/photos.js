@@ -1,3 +1,5 @@
+---
+---
 {% assign images = site.static_files | photo_filter %}
 (function(html) {
   const id = document.currentScript.getAttribute('data-photo-id');
